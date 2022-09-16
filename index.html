@@ -576,6 +576,18 @@
         </div>
         <div class="subsciption">
           <h4 class="subsciption-title">Підпишіться на розсилку</h4>
+          <form class="submit-form" name="submit-form" autocomplete="on" novalidate>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="E-mail" />
+            </label>
+            <button class="submit-btn" type="submit">
+              Підписатися
+              <svg class="send-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
@@ -587,6 +599,30 @@
             <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
         </button>
+        <div class="modal-window">
+          <h3 class="modal-title">Залиште свої дані, ми вам передзвонимо</h3>
+          <form class="modal-form" name="modal-form" autocomplete="on" novalidate>
+            <label>
+              Ім'я
+              <input type="name" name="name" />
+            </label>
+            <label>
+              Телефон
+              <input type="tel" name="phone_number" />
+            </label>
+
+            <label>
+              Пошта
+              <input type="email" name="email" />
+            </label>
+            <label>
+              Коментар
+              <textarea name="comment" rows="5" placeholder="Введіть текст"></textarea>
+            </label>
+
+            <button class="send-btn" type="submit">Відправити</button>
+          </form>
+        </div>
       </div>
     </div>
     <script src="./js/modal.js"></script>
