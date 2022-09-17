@@ -799,6 +799,25 @@ address {
   flex-direction: column;
 }
 
+.modal-form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-name {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: calc(14/12);
+  letter-spacing: 0.01em;
+  color: var(--primary-text-color);
+}
+
 .send-btn {
 display: flex;
   align-items: center;
